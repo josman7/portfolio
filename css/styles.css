@@ -297,7 +297,7 @@ h2 {
 } */
 
 #tablonmadera {
-    background: url('../images/árbol marrón.jpg');
+    background: url('../images/arbolmarron.jpg');
     position: relative;
     width: 100%;
     background-size: cover;
@@ -393,7 +393,7 @@ h3 {
 }
 
 #marmolnegro {
-    background: url('../images/marmol\ negro.jpg');
+    background: url('../images/marmolnegro.jpg');
     position: relative;
     width: 100%;
     background-size: cover;
@@ -430,7 +430,6 @@ h3 {
 #charlamos {
     justify-content: center
 }
-
 
 
 
