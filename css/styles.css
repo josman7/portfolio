@@ -1,0 +1,597 @@
+* {
+    box-sizing: boder-box;
+}
+
+nav {
+    padding-top: 96px;
+    padding-bottom: 96px;
+    display: flex;
+    gap: 40px;
+    width: 100%;
+    justify-content: center;
+}
+
+nav a {
+    background-color: #EEEB15;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 48px;
+    font-family: Chivo;
+    font-size: 32px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+#marmolazullineaa {
+    position: relative;
+    background: url('../images/marmol-azul.jpg');
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* NOT NEEDED
+    padding: 10px 10px 0px 0px;
+    margin: 40px 4px 0px 0px; */
+    height: 4px;
+}
+
+#marmolazullineab {
+    position: relative;
+    background: url('../images/marmol-azul.jpg');
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* NOT NEEDED
+    padding: 10px 10px 0px 0px;*/
+    margin: 4px 4px 0px 0px;
+    height: 4px;
+}
+
+#marmolazul {
+    background: url('../images/marmol-azul.jpg');
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0px 0px 0px 0px;
+    padding: 10px;
+    min-height: 1112px;
+    margin: 4px 0px 0px 0px;
+}
+
+.intro-section {
+    position: relative;
+    /* funciona en relative, cuando debería ser absolute ¿verdad?*/
+    background-color: white;
+    width: 70%;
+    margin: 72px auto;
+    /* margin: 72px 72px 72px 72px; */
+    padding: 155px 55px 55px;
+    border-radius: 80px;
+    min-height: 968px;
+    /* ¿Para que ajuste al texto (aunque en figma es 968px? */
+
+    justify-content: center;
+    /* ¿Por qué no lo coge? No lo centra */
+}
+
+#josemanuel-title {
+    position: relative;
+    top: -112px;
+    font-family: Chivo;
+    font-size: 120px;
+    font-style: normal;
+    text-transform: uppercase;
+    /* ¿No lo coge por qué no está bien metido el estilo de font? */
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+h1 {
+    /*
+    position: absolute;
+    width: 834px;
+    height: 264px;
+    left: 321px;
+    top: 281px;
+    */
+
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 114px;
+    text-transform: uppercase;
+
+    /* YELLOW */
+
+    color: #EEEB15;
+}
+
+
+p,
+ul,
+li {
+    font-family: Chivo;
+    /* ¿La coge? Mulish es p y tampoco*/
+    font-style: normal;
+    /* no coge regular, esto es por no cargar bien la letra¿? */
+    font-size: 24px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    /* position: absolute width=100;
+    height: 100; */
+}
+
+/* no coge toda la extensión del párrafo las características de la letra*/
+
+/* <!-- Inicia aquí la sección de la foto, está creado el id de hueco --> */
+
+/* #hueco {
+    position: relative;
+    background-color: white;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 855px;
+    margin: 4px 4px 0px 0px;  
+} */
+
+#io {
+    position: relative;
+    width: 324px;
+    min-height: 318px;
+    background: url('../images/io.png');
+    background-position: center;
+    background-size: cover;
+    margin: 40px auto;
+    border: 4px solid #2D98AD;
+    border-radius: 195px;
+        /* Desencaja la foto del borde */
+    justify-content: center;
+     /* ¿Por qué no lo coge? No lo centra */
+
+}
+
+#quien-soy {
+    position: relative;
+    /* top: -112px; */
+    font-family: Chivo;
+    font-size: 48px;
+    font-style: normal;
+    text-transform: uppercase;
+    /* ¿No lo coge por qué no está bien metido el estilo de font? */
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    justify-content: center;
+    margin: 40px auto;
+    padding: 40px;
+}
+
+h2 {
+    /*
+    position: absolute;
+    width: 834px;
+    height: 264px;
+    left: 321px;
+    top: 281px;
+    */
+
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 114px;
+    text-transform: uppercase;
+
+    /* YELLOW */
+
+    color: #EEEB15;
+}
+
+#nav-descargarCV {
+    padding-top: 96px;
+    padding-bottom: 96px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 40px;
+}
+
+#buttonCV {
+    background-color:black;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 48px;
+    font-family: Chivo;
+    font-size: 32px;
+    text-decoration: none;
+    text-align: center;
+    color: white;    
+    /* justify-content: center; */
+    /* margin: 40px auto; */
+    /* no se me centra el botón */
+
+}
+
+
+
+/* #marmolazul {
+        background: url('../images/marmol-azul.jpg');
+        position: relative;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 0px 0px 0px 0px;
+        padding: 10px;
+        min-height: 1112px;
+        margin: 4px 0px 0px 0px;
+    }
+    
+ */
+
+/*     <!-- Termina aquí la sección de la foto, está creado el id de hueco -->
+ */
+
+ #Proyectos {
+    /* display: flex align-items: flex start position: relative; */
+    /* width: auto; */
+    /* width: 1993px; */
+
+    width: 100%;
+    /* ¿cómo lo ajusto a la pantalla? */
+    height: 349px;
+    left: 163px;
+    /* top: 4216px; */
+
+    font-family: 'Chivo', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 17vw;
+    line-height: 381px;
+    text-transform: uppercase;
+
+    /* YELLOW */
+
+    color: #EEEB15;
+
+    /* transform: rotate(-90deg); */
+}
+
+/* 
+.arbolmarron {
+    position: absolute;
+    min-height: 857px;
+    width: 100%;
+    /* top: 40px;
+    left : 40px; */
+    /* z-index: -1;
+} */ 
+
+/* .marmolnegro {
+    position: absolute;
+    min-height: 738px;
+    width: 75%;
+    z-index: 1;
+} */
+
+/* .MARATHON {
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    z-index: 1;
+} */
+
+/* .TEMPLA {
+    position: absolute;
+    height: 600px;
+    width: 600px;
+    z-index: 1;
+} */
+
+#tablonmadera {
+    background: url('../images/árbol marrón.jpg');
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border-radius: 0px 0px 0px 0px; */
+    padding: 10px;
+    min-height: 500px;
+    margin: 40px 0px 40px 0px;
+    /* z-index: -1 */
+}
+
+.fonditostillinprogress {
+    position: relative;
+    background-color: #EEEB15;
+    border-color: #F5F370;
+    width: 30vw;
+    height: 30vh;
+    margin: 40px;
+    padding: 155px 55px 55px;
+    border-radius: 80px;
+    display: flex;
+    justify-content:flex-start;
+    /* z-index: -1  */
+}
+
+.intro-sectionA {
+    position: relative;
+    /* funciona en relative, cuando debería ser absolute ¿verdad?*/
+    background-color: white;
+    width: 70%;
+    margin-left: 72px auto;
+    /* margin: 72px 72px 72px 72px; */
+    /* padding: 155px 55px 55px;
+    border-radius: 80px; */
+    min-height: 300px;
+    /* ¿Para que ajuste al texto (aunque en figma es 968px? */
+
+    justify-content: center;
+    /* ¿Por qué no lo coge? No lo centra */
+}
+
+.intro-sectionB {
+    position: relative;
+    /* funciona en relative, cuando debería ser absolute ¿verdad?*/
+    background-color: white;
+    width: 70%;
+    margin: 72px auto;
+    /* margin: 72px 72px 72px 72px; */
+    padding: 155px 55px 55px;
+    border-radius: 80px;
+    min-height: 500px;
+    /* ¿Para que ajuste al texto (aunque en figma es 968px? */
+
+    justify-content: center;
+    /* ¿Por qué no lo coge? No lo centra */
+}
+
+#títuloproyectos {
+    position: relative;
+    /* top: -112px; */
+    font-family: Chivo;
+    font-size: 48px;
+    font-style: normal;
+    text-transform: uppercase;
+    /* ¿No lo coge por qué no está bien metido el estilo de font? */
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    justify-content: center;
+    margin: 40px auto;
+    padding: 40px;
+}
+
+h3 {
+    /*
+    position: absolute;
+    width: 834px;
+    height: 264px;
+    left: 321px;
+    top: 281px;
+    */
+
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 114px;
+    text-transform: uppercase;
+
+    /* YELLOW */
+
+    color: #EEEB15;
+}
+
+#marmolnegro {
+    background: url('../images/marmol\ negro.jpg');
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border-radius: 0px 0px 0px 0px; */
+    padding: 10px;
+    min-height: 500px;
+    margin: 40px 0px 40px 0px;
+    /* z-index: -1 */
+}
+
+.fonditotempla {
+    position: relative;
+    background-color: #B73804;
+    border-color: #FB7640;
+    width: 30vw;
+    height: 30vh;
+    margin: 40px;
+    padding: 155px 55px 55px;
+    border-radius: 80px;
+    display: flex;
+    justify-content:center;
+    /* z-index: -1  */
+}
+
+.FUTUROLOGO {
+    position: absolute;
+    height: 600px;
+    width: 600px;
+    z-index: 1;
+}
+
+
+#charlamos {
+    justify-content: center
+}
+
+
+
+
+
+
+#josemanuel-title {
+    position: relative;
+    top: -112px;
+    font-family: Chivo;
+    font-size: 120px;
+    font-style: normal;
+    text-transform: uppercase;
+    /* ¿No lo coge por qué no está bien metido el estilo de font? */
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+
+/* .fonditotempla {
+    position: relative;
+    background-color: #B73804;
+    border-color: #FB7640;
+    width: 30vh;
+    height: 30vh;
+    margin: 200px auto;
+    padding: 155px 55px 55px;
+    border-radius: 80px;
+    display: flex;
+    justify-content:center;
+} */
+
+.fonditomarathon {
+    position: relative;
+    background-color: #422D1B;
+    border-color: #9C5E29;
+    width: 30vw;
+    height: 30vh;
+    margin: 40px;
+    padding: 155px 55px 55px;
+    border-radius: 80px;
+    display: flex;
+    justify-content:flex-end;
+    /* z-index: -1  */
+}
+
+
+#superficie1 {
+    position: absolute width=100;
+    height: 100;
+}
+
+
+
+.header {
+    box-sizing: border-box;
+    position: relative;
+    width: 231px;
+    height: 58px;
+    left: 556px;
+    top: 96px;
+
+    /* YELLOW */
+
+    background: #EEEB15;
+    border-radius: 48px;
+
+}
+
+
+
+
+
+#barranegrafinal {
+    position: relative;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0px 0px 0px 0px;
+    padding: 10px 10px 0px 0px;
+    margin: 40px 8px 0px 0px;
+    height: 80px;
+}
+
+
+.botonhome {
+    box-sizing: border-box;
+    position: absolute;
+    width: 231px;
+    height: 58px;
+    left: 556px;
+    top: 96px;
+
+    /* YELLOW */
+
+    background: #EEEB15;
+    border-radius: 48px;
+}
+
+#botonhome {
+    box-sizing: border-box;
+    position: absolute;
+    width: 231px;
+    height: 58px;
+    left: 556px;
+    top: 96px;
+
+    /* YELLOW */
+
+    background: #EEEB15;
+    border-radius: 48px;
+}
+
+
+p.container {
+    background-color: black;
+}
+
+header {
+    background-image: url("");
+}
+
+
+
+
+
+.dark-text {
+    color: black;
+}
+
+
+
+
+
+#marmolazulsuperior {
+    position: absolute;
+    width: 918px;
+    height: 257px;
+    left: 466px;
+    top: 1475px;
+
+    background-image: url(blue-and-gold-marble-textured-background.jpg);
+    border-radius: 320px 40px 0px 0px;
+}
+
+#marmolazulinferior {
+    position: absolute;
+    width: 918px;
+    height: 257px;
+    left: 1384px;
+    top: 2087px;
+
+    background: url(blue-and-gold-marble-textured-background.jpg);
+    border-radius: 320px 40px 0px 0px;
+    transform: rotate(-180deg);
+}
+
+#e-mail.phone.medium.behance{
+    width: 10vw; 
+    height: 10vh; 
+    display: flex;
+    justify-content: center;
+    gap: 40px; 
+}
